@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HofSpannung e.V. Racer - 3D-View</title>
+		<meta charset="utf-8">
+		<style>
+			body {
+				background:#F0F0F0;
+				color:#000;
+				/*overflow:hidden;*/
+				font-family:arial, helvetica;
+				font-size:12pt;
+				text-align:left;
+			}
+			a { color:#006; text-decoration:none; }
+			a:hover { color:#33F }
+			#info {
+				position: absolute;
+				top: 0px; right: 0px;
+                /*width: 100%;*/
+				color: #fff;
+				/*background:rgba(0,0,0,0.65);*/
+				padding: 5px;
+				text-align: center;
+				z-index:100;
+				display:block;
+			}
+            ul { margin-bottom:0;margin-top:0;}
+            li { margin:0;padding:4px;}
+		</style>
+	</head>
+
+	<body>
+    <table>
+      <tr>
+        <td colspan="2">
+          <h2 style="text-align:center;text-shadow:#A0A0A0 2px 2px 5px;margin-bottom:0px">
+            Designkonzept - WebGL 3D-View
+          </h2>
+<!--           <a href="../../FS_Designkonzept_OC_120703.pdf" target="_blank" 
+          style="text-align:center;width:100%;display:block;margin-bottom:8px">
+            Dokumentation aufrufen
+          </a> -->
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <a href="#start" target="_self">
+            <img src="img/rendering.jpg" alt="HofSpannung Motorsport Rennwagen"/>
+            <span style="font-size:8pt;color:#808080;text-align:right;display:block">
+                Erfolgreich getestet mit Firefox 12</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="img/hofspannung.png" alt="HofSpannung Motorsport" style="text-align:center;margin:8px 0px 0px 12px"/>
+        </td>
+        <td>
+          <fieldset style="width:auto">
+            <legend style="color:#404040"><a name="start">Szenario w&auml;hlen &amp; Ansicht starten</a></legend>
+            <ul>
+              <li><a href="racer.html" target="_self">Hochschule Hof</a></li>
+              <li><a href="racer.html#bg=castle" target="_self">Swedish Royal Castle</a><br>
+              <span style="font-size:8pt">(Cubemap by <a href="http://www.humus.name" target="_blank">humus</a>)</span></li>
+            </ul>
+          </fieldset>
+        </td>
+      </tr>
+    </table>
+    </body>
+    </html>
